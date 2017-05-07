@@ -1,0 +1,107 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web');
+/*set body background image for front*/
+	* { margin: 0; padding: 0; }
+		
+		body, html {  
+			background-color: 
+      #2d1a19; 
+			-webkit-background-size: cover;
+			-moz-background-size: cover;
+			-o-background-size: cover;
+			background-size: cover;
+		}
+		.textbgwhite{
+      background-color: white;
+      color: #333;
+    }
+/*set font*/
+    body{
+      font-family: 'Titillium Web', sans-serif;
+    }
+
+    .jumbotron{
+      background: 
+        linear-gradient(
+          rgba(66, 4, 4, 0.45),
+          rgba(29, 2, 2, 0.45)
+        ),
+      url(../images/bg.jpeg); 
+      -webkit-background-size: cover;
+			-moz-background-size: cover;
+			-o-background-size: cover;
+			background-size: cover;
+      color: white !important;
+      padding-bottom: 250px;
+    }
+
+.bgoverlay{
+  background-color: #333;
+  opacity: .8;
+}
+
+  .textbgblue{
+  background-color: #D1E2E6;
+  color:#fff;
+  padding:20px;
+  text-align: center;
+  width:100%;
+}
+
+.textbgorange{ 
+  background-color: #2d1a19; 
+  color:#fff;
+  width:100%;
+}
+
+.textbggrey{
+  background: 
+  linear-gradient(#333,#2d1a19);
+  color:#fff;
+  padding:20px;
+  text-align: center;
+  width:100%;
+}
+
+.textblack{
+  background-color: black;
+  color:#fff;
+  padding:20px;
+  width:100%;
+}
+
+ul{
+  list-style-type: none;
+}
+
+a{
+  color:#94A3A8;
+  text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+.playbuttonspacer { position:relative; margin:0; padding:0; top:100px; bottom:50px;}
+
+.mycontainer{
+  padding-top:150px;
+}
+
+.spacer { position:relative; margin:0; padding:0; top:50px; }
+
+.ninjavideo{
+     width: 100%;
+}
+.navbar-inverse{
+  background-color: black;
+}
+.quote{
+  background-image: url(../images/quote-mark.png);
+  background-repeat: no-repeat;
+  padding: 15px;
+}
+.img-circle {
+    border-radius: 50%;
+}
